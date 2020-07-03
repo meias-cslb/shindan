@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+	width: 100%
+	margin: 0;
+	padding: 5%;
+	font-family: 'Kosugi', sans-serif;
+    color: #404040;
+	text-align: center;
+	background: linear-gradient(#fff, #fff462);
+}
+
+form{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+
+h1, h2, h3, p, input[type="sumbit"]{
+	width: 100%;
+	margin:10px auto;
+	text-align: center;
+ }
+
+
+h2, input[type="text"]{
+ 	margin-bottom: 30px;
+ }
+
+ input[type="text"], input[type="sumbit"] {
+ 	width: 40%;
+ 	height: 30px;
+ }
+
+h3 {
+ 	border-top: 1px dashed #404040;
+ 	padding-top: 30px;
+ }
+
+.container {
+	width: 45%;
+	margin: 20px auto 30px auto;
+}
+
+.container div {
+	text-align: left;
+	width: 80%%;
+	padding: 0 auto;
+}
+
+.container div input {
+	text-align: ieft;
+}
+
+img {
+	margin-bottom: 100px;
+}
+
+#error {
+	color: red;
+	font-weight: bold;
+}
+
+#answer {
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+}
